@@ -1,0 +1,8 @@
+My personal emacs configuration.
+
+To use this load init.el from your .emacs file.
+
+lisp -> contains my own configuration
+site-lisp -> contains libraries that I found on the internet
+
+Enjoy! ^_^
