@@ -42,4 +42,18 @@
 ;; "y or n" instead of "yes or no"
 (fset 'yes-or-no-p 'y-or-n-p)
 
+;; unique buffer names
+(require 'uniquify)
+(setq uniquify-buffer-name-style 'forward)
+
+;; use f4 for goto-line
+(global-set-key [f4] 'goto-line)
+;; bg color
+(setq default-frame-alist
+      (append default-frame-alist
+       '((foreground-color . "Gray")
+         (background-color . "Black")
+         (cursor-color . "SkyBlue")
+         )))
+
 (provide 'vt-generic)
