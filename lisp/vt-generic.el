@@ -56,4 +56,6 @@
          (cursor-color . "SkyBlue")
          )))
 
+(setq x-select-enable-clipboard t)
+
 (provide 'vt-generic)

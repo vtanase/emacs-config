@@ -14,3 +14,7 @@
 
 (require 'vt-csharp)
 
+(require 'vt-php)
+
+(require 'vt-windows)
+
