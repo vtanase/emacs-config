@@ -14,6 +14,8 @@
 
 (require 'vt-csharp)
 
+(require 'vt-java)
+
 (require 'vt-php)
 
 (require 'vt-windows)
