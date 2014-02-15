@@ -16,7 +16,7 @@
 
 (require 'vt-java)
 
-(require 'vt-php)
+;;(require 'vt-php)
 
 (require 'vt-windows)
 
