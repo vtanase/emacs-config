@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# script for running emacs as a single process, as suggested by:
+# devblog.avdi.org/2011/10/27/running-emacs-as-a-server-emacs-reboot-15/
+# should be saved to /usr/local/bin
+exec /usr/bin/env emacsclient -c -a "" $*
