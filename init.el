@@ -5,6 +5,8 @@
 (add-to-list 'load-path' "~/.emacs.d/site-lisp/")
 (add-to-list 'load-path' "~/.emacs.d/site-lisp/cc-mode/")
 (add-to-list 'load-path' "~/.emacs.d/site-lisp/yasnippet/")
+(let ((default-directory "~/.emacs.d/elpa/"))
+  (normal-top-level-add-subdirs-to-load-path))
 
 ;; nxhtml
 ;;(load "~/.emacs.d/site-lisp/nxhtml/autostart.el")
@@ -16,7 +18,8 @@
 
 (require 'vt-java)
 
-(require 'vt-php)
+;;(require 'vt-php)
 
 (require 'vt-windows)
 
+(require 'vt-package)
