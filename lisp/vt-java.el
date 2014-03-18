@@ -2,7 +2,7 @@
 
 (defun my-java-mode-fn ()
   (setq indent-tabs-mode nil)
-  (setq c-basic-offset 2)
+  (setq c-basic-offset 4)
 
   ;; eclim and yasnippet don't really play well together for me
   ; yasnipet

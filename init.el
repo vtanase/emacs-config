@@ -18,6 +18,8 @@
 
 (require 'vt-java)
 
+(require 'vt-groovy)
+
 ;;(require 'vt-php)
 
 (require 'vt-windows)
