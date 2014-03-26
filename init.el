@@ -25,3 +25,5 @@
 (require 'vt-windows)
 
 (require 'vt-package)
+
+(require 'vt-moz)
